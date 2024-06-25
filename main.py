@@ -10,7 +10,7 @@ def start(message):
 
 @bot.message_handler(commands=['info'])
 def info(message):
-    bot.send_message(message.chat.id, 'Сделал студент Б9123-01.03.02 ИИ Житинёв Иван')
+    bot.send_message(message.chat.id, 'Сделали Некрасова Марина и Им Кристина')
 
 
 @bot.message_handler(commands=['help'])
